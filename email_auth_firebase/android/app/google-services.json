@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "633313064741",
+    "project_id": "email-auth-2223f",
+    "storage_bucket": "email-auth-2223f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:633313064741:android:40c6f9436fed3bab770ccc",
+        "android_client_info": {
+          "package_name": "com.example.email_auth_firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "633313064741-5sj7pb7kucadgp6848pe4p2b1kdgdu3q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH66j9pwZ5fNThLLl3s17UmE8aKM9pxG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "633313064741-5sj7pb7kucadgp6848pe4p2b1kdgdu3q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1019644556991",
+    "project_id": "master-skills-4a9bc",
+    "storage_bucket": "master-skills-4a9bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1019644556991:android:5ae244687bba538e62b80a",
+        "android_client_info": {
+          "package_name": "com.example.masterskills"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1019644556991-cppsscbscnltc8k8p6edak4pr9n83nde.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRPYtzGm9bnplA4L5KlUtZRFPNICJ9enc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1019644556991-cppsscbscnltc8k8p6edak4pr9n83nde.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

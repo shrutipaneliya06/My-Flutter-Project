@@ -1,0 +1,60 @@
+// body: Column(
+      //   children: [
+      //     FutureBuilder(
+      //       future: Hive.openBox('shruti'),
+      //       builder: (context, snapshot) {
+      //         return Column(
+      //           children: [
+      //             ListTile(
+      //               title: Text(snapshot.data!.get('name').toString()),
+      //               subtitle: Text(snapshot.data!.get('age').toString()),
+      //               trailing: IconButton(
+      //                 onPressed: () {
+      //                   snapshot.data!.put('name', 'none');
+
+      //                   setState(() {});
+      //                 },
+      //                 icon: Icon(Icons.edit),
+      //               ),
+      //             ),
+      //           ],
+      //         );
+      //       },
+      //     ),
+      //     FutureBuilder(
+      //       future: Hive.openBox('shruti2'),
+      //       builder: (context, snapshot) {
+      //         return Column(
+      //           children: [
+      //             ListTile(
+      //               title: Text(snapshot.data!.get('name').toString()),
+      //               subtitle: Text(snapshot.data!.get('age').toString()),
+      //               trailing: IconButton(
+      //                 onPressed: () {
+      //                   snapshot.data!.delete('name');
+      //                   setState(() {});
+      //                 },
+      //                 icon: Icon(Icons.delete),
+      //               ),
+      //             )
+      //           ],
+      //         );
+      //       },
+      //     ),
+      //   ],
+      // ),
+
+      // var box = await Hive.openBox('shruti');
+          // box.put('name', 'gazal patel');
+          // box.put('age', 19);
+          // box.put('details', {'study': 'bca', 'hobby': 'read'});
+
+          // var box2 = await Hive.openBox('shruti2');
+          // box2.put('name', 'patel');
+          // box2.put('age', 1);
+          // box2.put('details', {'study': 'bca', 'hobby': 'read'});
+
+          // print(box.get('name'));
+          // print(box.get('age'));
+          // print(box.get('details'));
+          // print(box.get('details')['study']);
